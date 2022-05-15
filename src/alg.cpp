@@ -1,13 +1,13 @@
 // Copyright 2022 NNTU-CS
 #include <cstdint>
-#include "alg.h"
 #include <iostream>
+#include "alg.h"
 
 double pown(double value, uint16_t n) {
-   double result = 1;
-   if (n == 0) {
+  double result = 1;
+  if (n == 0) {
     return result;
-} else {
+  } else {
     for (int i = 1; i <= n; i++) {
       result = value * result;
     }
